@@ -1,0 +1,7 @@
+build
+
+.idea/libraries
+.idea/aws.xml
+.idea/jpa-buddy.xml
+.idea/misc.xml
+*.egg-info

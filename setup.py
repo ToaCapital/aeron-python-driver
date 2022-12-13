@@ -15,8 +15,8 @@
 import os
 import re
 from glob import iglob
-from setuptools import setup
 
+from setuptools import setup
 
 # Should be one of:
 # 'Development Status :: 3 - Alpha'
@@ -25,7 +25,7 @@ from setuptools import setup
 release_status = 'Development Status :: 3 - Alpha'
 dependencies = [
     'Cython',
-    'pyjnius==1.1.3',
+    'pyjnius',
 ]
 
 here, _ = os.path.split(__file__)
